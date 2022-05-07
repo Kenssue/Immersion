@@ -1,0 +1,61 @@
+/*Style for the Screen*/
+/*For all around padding and margin */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: grab;
+}
+/*The Background Image and It`s Customization */
+html{
+        background-image: url("https://images.deliveryhero.io/image/fd-ph/LH/u1vx-hero.jpg");
+        height: 100%;
+        background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*Style For the Name of the Store*/
+.Name h2{
+    color: rgb(48, 47, 47);
+    font-size: 33px;
+    font-family: 'Square Peg', cursive;
+    src: url("https://fonts.googleapis.com");
+    flex: auto;
+    text-decoration: none;
+    float: left;
+}
+/*Style For the Image of the Store*/
+.Name img{
+    flex: auto;
+    float: left;
+    height: 5rem;
+    width: 7rem;
+    padding-bottom: 2rem;
+}
+/*Style of the Navigation Bars*/
+.menu a{
+    color: rgb(48, 47, 47);
+    font-size: 30px;
+    font-family: 'Square Peg', cursive;
+    src: url("https://fonts.googleapis.com");
+    flex: auto;
+    text-decoration: none;
+    cursor: pointer;
+}
+.menu ul{
+    text-align: right;
+    align-items: center;
+    word-spacing: 4rem;
+}
+/*Animation of the Navigation Bars*/
+.menu a:hover{
+    color:rgb(255, 255, 255) ;
+    box-shadow: 5px 5px rgb(211, 211, 211) ;
+}
+/*For the Possition of The Navigation Bars*/
+.menu{
+    background-color: rgb(128, 127, 127);
+    border: 1px solid rgb(77, 77, 77);
+    border-color: rgb(58, 58, 58) rgb(112, 112, 112);
+    height: 3rem;
+}

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: grab;
+}
+html{
+        background-image: url("https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_680/fl_lossy.progressive,q_85/c_fill,w_680/fl_lossy.progressive/q_auto/f_auto/c_fill/blogen/2019/07/image22.jpg");
+        height: 100%;
+        background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    }
+.Name h2{
+    color: rgb(48, 47, 47);
+    font-size: 33px;
+    font-family: 'Square Peg', cursive;
+    src: url("https://fonts.googleapis.com");
+    flex: auto;
+    text-decoration: none;
+    float: left;
+}
+.menu a{
+    color: rgb(48, 47, 47);
+    font-size: 30px;
+    font-family: 'Square Peg', cursive;
+    src: url("https://fonts.googleapis.com");
+    flex: auto;
+    text-decoration: none;
+    cursor: pointer;
+}
+.menu ul{
+    text-align: right;
+    align-items: center;
+    word-spacing: 4rem;
+}
+.menu a:hover{
+    color:rgb(255, 255, 255) ;
+    box-shadow: 5px 5px rgb(211, 211, 211) ;
+}
+.menu{
+    background-color: rgb(128, 127, 127);
+    border: 1px solid rgb(77, 77, 77);
+    border-color: rgb(58, 58, 58) rgb(112, 112, 112);
+    height: 3rem;
+}
+.Name img{
+    flex: auto;
+    float: left;
+    height: 5rem;
+    width: 7rem;
+    padding-bottom: 2rem;
+}
+.order select{
+    color: rgb(31, 31, 31);
+    font-size: 20px;
+    font-family: 'Square Peg', cursive;
+    src: url("https://fonts.googleapis.com");
+    flex: auto;
+}
+.size select{
+    color: rgb(31, 31, 31);
+    font-size: 20px;
+    font-family: 'Square Peg', cursive;
+    src: url("https://fonts.googleapis.com");
+    flex: auto;
+    margin-top: 2rem;
+}
+.Sugar-Level select{
+    color: rgb(31, 31, 31);
+    font-size: 20px;
+    font-family: 'Square Peg', cursive;
+    src: url("https://fonts.googleapis.com");
+    flex: auto;
+    margin-top: 2rem;
+}
+.Boba select{
+    color: rgb(31, 31, 31);
+    font-size: 20px;
+    font-family: 'Square Peg', cursive;
+    src: url("https://fonts.googleapis.com");
+    flex: auto;
+    margin-top: 2rem;
+}
+.order p{
+    color: rgb(255, 244, 244);
+    font-size: 20px;
+    font-family: 'Square Peg', cursive;
+    src: url("https://fonts.googleapis.com");
+    flex: auto;
+}
+.size p{
+    color: rgb(255, 244, 244);
+    font-size: 20px;
+    font-family: 'Square Peg', cursive;
+    src: url("https://fonts.googleapis.com");
+    flex: auto;
+}
+.Sugar-Level p{
+    color: rgb(255, 244, 244);
+    font-size: 20px;
+    font-family: 'Square Peg', cursive;
+    src: url("https://fonts.googleapis.com");
+    flex: auto;
+}
+.Boba p{
+    color: rgb(255, 244, 244);
+    font-size: 20px;
+    font-family: 'Square Peg', cursive;
+    src: url("https://fonts.googleapis.com");
+    flex: auto;
+}
+.button input{
+    font-size: 24px;
+    margin-top: 1rem;
+    color: rgb(48, 47, 47);
+    font-size: 27px;
+    font-family: 'Square Peg', cursive;
+    src: url("https://fonts.googleapis.com");
+    flex: auto;
+    text-decoration: none;
+    border-radius: 1rem;
+background-color: rgb(255, 181, 90);
+transition: all 0.2s;
+}
+.button input:hover{
+    background-color:rgb(255, 107, 21);
+}
+.box{
+    position: relative;
+    margin-top: 6rem;
+    flex: auto;
+    
+}
+</style>
+<body>
+    <div class="Name">
+        <h2> <img src="https://cdn4.iconfinder.com/data/icons/cafe-and-coffee-2/24/cafe_milktea_boba-256.png"> Milk Teaxpert</h2>
+    </div>
+    <div class="menu">
+        <ul>
+            <a href="index.html">Home</a>
+            <a href="about.index.html">About</a>
+            <a href="mune.index.html">Menu</a>
+            <a href="order.index.html" style="margin-right: 5rem;">Order</a>
+        </ul>
+    </div>
+    <div class="box">
+    <center>
+    <div class="order">
+        
+    <select id="list1" onchange="getSelectValue();">
+        <option value="Blue Berry falvor">Blue Berry falvor</option>
+        <option value="Melted Caramel falvor">Melted Caramel falvor</option>
+        <option value="Strawberry falvor">Strawberry falvor</option>
+        <option value="Coconut falvor">Coconut falvor</option>
+        <option value="Mocha falvor">Mocha falvor</option>
+        <option value="Classic-Chocolate falvor">Classic-Chocolate falvor</option>
+        <option value="Coffee-Jelly falvor">Coffee-Jelly falvor</option>
+        <option value="Bukopandan falvor">Bukopandan falvor</option>
+        <option value="Grayham falvor">Grayham falvor</option>
+        <option value="Milky-coconut falvor">Milky-coconut falvor</option>
+        <option value="Dark-Forrest falvor">Dark-Forrest falvor</option>
+        <option value="Tea falvor">Tea falvor</option>
+        <option value="Mango falvor">Mango falvor</option>
+        <option value="Matcha falvor">Matcha falvor</option>
+        <option value="Milky-Caramel falvor">Milky-Caramel falvor</option>
+        <option value="Orea-pandan falvor">Orea-pandan falvor</option>
+        <option value="Bubble-Gum falvor">Bubble-Gum falvor</option>
+        <option value="Redberry falvor">Redberry falvor</option>
+        <option value="Pandan-Nuts">Pandan-Nuts</option>
+        <option value="Red-beans falvor">Red-beans falvor</option>
+        <option value="Dragon-fruit falvor">Dragon-fruit falvors</option>
+    </select><p>Milk Tea`s Flavor</p></div>
+    </center>
+    <center>
+    <div class="size">
+        <select id="list2" onchange="Select();">
+            <option value="Regular">Regular Size &nbsp;| &nbsp; ₱ 90.00</option>
+            <option value="Large">Large Size &nbsp;| &nbsp; ₱ 120.00</option>
+            <option value="Small">Small Size &nbsp;| &nbsp; ₱ 75.00</option>
+        </select><p>Milk Tea`s Size</p></div>
+    </center>
+    <center>
+    <div class="Sugar-Level">
+        <select id="list3" onchange="Value();">
+            <option value="25%">25%</option>
+            <option value="50%">50%</option>
+            <option value="70%">70%</option>
+            <option value="100%">100%</option>
+        </select><p>Milk Tea`s Sugar-Level</p></div>
+    </center>
+    <center>
+        <div class="Boba">
+            <select id="list4" onchange="get();">
+                <option value="Regular Boba">Regular Boba</option>
+                <option value="Crystal Boba">Crystal Boba</option>
+                <option value="Brown-Sugar Boba">Brown-Sugar Boba</option>
+        </select><p>Milk Tea`s Boba Type</p></div>
+    </center>
+        <div class="button">
+    <center><a href="mune.index.html"> <input type="button" value="Order" onclick="alert ('Thank You Kindly Wait Your order')"></a>
+    </center>    </div>
+     <script>
+         function getSelectValue()
+{
+    var selectValue = document.getElementById("list1").value;
+    console.log(selectValue);
+}
+function Select()
+{
+    var selectValue = document.getElementById("list2").value;
+    console.log(selectValue);
+}
+function Value()
+{
+    var selectValue = document.getElementById("list3").value;
+    console.log(selectValue);
+}
+function get()
+{
+    var selectValue = document.getElementById("list4").value;
+    console.log(selectValue);
+}
+     </script>
+     <div class="img1"><img src="https://cdn0.iconfinder.com/data/icons/fast-food-lineal-color/128/24._Bubble_Drink_boba_milktea_pearl_beverage-256.png"></div> 
+     <div class="img2"><img src="https://cdn0.iconfinder.com/data/icons/fast-food-lineal-color/128/24._Bubble_Drink_boba_milktea_pearl_beverage-256.png"></div>
+    </body>
+    <style>
+        .img1{
+            flex: auto;
+            float: left;
+        }
+        .img2{
+            flex: auto;
+            float: right;
+            -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+        }
+    </style>
+</html>
